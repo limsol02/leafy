@@ -9,7 +9,7 @@ on:
       - 'leafy-backend/**'
       
 jobs:
-  build-and-push:
+  build-and-push: # job이름 설정
     runs-on: ubuntu-latest  
     # 가장 최신의 Ubuntu 러너를 사용합니다.
 
